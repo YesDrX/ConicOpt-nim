@@ -9,7 +9,7 @@ Conic Optimization Library for Nim
 sudo install libopenblas-dev
 ```
 
-# Install
+# Install ConicOpt-nim
 ```
 git clone https://github.com/YesDrX/ConicOpt-nim
 cd ConicOpt-nim
