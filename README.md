@@ -2,8 +2,8 @@
 Conic Optimization Library for Nim
 
 # Requirements
-* blas
-## Install
+## BLAS
+   There are many implementations of BLAS interface; for example, [openBlas](https://github.com/xianyi/OpenBLAS).
 #### Ubuntu
 ```
 sudo install libopenblas-dev
