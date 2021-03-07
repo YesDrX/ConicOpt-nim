@@ -3,6 +3,14 @@ A Conic (Convex Cone) Optimization Library for Nim.
 
 Optimization engine is based on [superscs](https://kul-forbes.github.io/scs/) ([Github](https://github.com/kul-forbes/scs)).
 
+#### Supported Cone Types
+* Zero Cone (Equality Constraints)
+* LP (Linear Inequality Constraints)
+* Qudratic Cone
+* Rotated Qudratic Cone
+* Exponential Cone
+* Power Cone
+
 # Requirements
 ## BLAS
    There are many implementations of BLAS interface; for example, [openBlas](https://github.com/xianyi/OpenBLAS).
