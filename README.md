@@ -17,7 +17,7 @@ nimble install
 ```
 
 # Example
-* Code
+* Code (API is similar to that of [MOSEK](https://docs.mosek.com/9.2/pythonapi/optimizer-task.html))
 ```nim
 import conicOpt
 
