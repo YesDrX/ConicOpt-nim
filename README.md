@@ -50,6 +50,8 @@ nim c --run -d:debug example.nim
 If you don't want see the details of your conic problem, remove -d:debug when compiling your code.
 
 * Output
+
+To understand what the parameters below mean, please refer to [superscs](https://kul-forbes.github.io/scs/)
 ```
 =======================================================================================
 Details of the conic problem:
