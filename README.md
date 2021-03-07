@@ -22,12 +22,11 @@ nimble install
 * Code (API is similar to that of [MOSEK](https://docs.mosek.com/9.2/pythonapi/optimizer-task.html))
 ```nim
 import conicOpt
+import sequtils
 
-when isMainModule:
-  import sequtils
-  import strformat
-  import strutils
+when isMainModule: 
   var env = Env()
+
   env.appendvars(3)
   env.putvarboundslice(0, 3, BoundKey.ra.repeat(3), 0.0.repeat(3), 0.6.repeat(3))
   env.putclist(@[0, 1, 2], @[0.1, 0.2, 0.3])
@@ -43,7 +42,8 @@ when isMainModule:
   env.update_settings("verbose", 1)
   env.optimize()
   var sol = env.get_solution()
-  echo sol
+  echo sol 
+
   env.clean()
 ```
 * Compile
