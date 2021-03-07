@@ -4,7 +4,7 @@ Conic Optimization Library for Nim
 # Requirements
 * blas
 ## Install
-** Ubuntu
+#### Ubuntu
 ```
 sudo install libopenblas-dev
 ```
