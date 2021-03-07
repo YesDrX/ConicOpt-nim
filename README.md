@@ -49,6 +49,7 @@ when isMainModule:
   env.update_settings("eps", 1e-15)
   env.update_settings("verbose", 1)
   env.optimize()
+  echo "Solution Status Code: ", env.info.statusVal #https://github.com/YesDrX/ConicOpt-nim/blob/0a616b36c39651ead6e91636dfcc37201deadec3/src/ConicOpt/superscs.nim#L19
   var sol = env.get_solution()
   echo sol 
 
@@ -150,5 +151,6 @@ dist(s, K) = -0.0000e+00, dist(y, K*) = 0.0000e+00, s'y/|s||y| = 0.0000e+00
 ---------------------------------------------------------------------------------------
 c'x = -0.2600, -b'y = -0.2600
 =======================================================================================
+Solution Status Code: 1
 (primal_obj: 0.2599999999999997, dual_obj: 0.2599999999999999, primal_x: @[-4.520440012763929e-16, 0.4, 0.5999999999999993], dual_y: @[0.2000000000000001, 0.1000000000000001, 0.0], slack_s: @[0.0, 0.0, 0.6000000000000002, 0.4, 0.1999999999999998, 0.5999999999999994, 0.0])
 ```
