@@ -25,8 +25,7 @@ when isMainModule:
   import sequtils
   import strformat
   import strutils
-  var
-    env = Env()
+  var env = Env()
   env.appendvars(3)
   env.putvarboundslice(0, 3, ra.repeat(3), 0.0.repeat(3), 0.6.repeat(3))
   env.putclist(@[0, 1, 2], @[0.1, 0.2, 0.3])
