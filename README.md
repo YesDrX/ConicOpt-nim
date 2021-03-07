@@ -1,5 +1,7 @@
 # ConicOpt-nim
-Conic Optimization Library for Nim
+Conic Optimization Library for Nim.
+
+Optimization engine is based on [superscs](https://kul-forbes.github.io/scs/).
 
 # Requirements
 ## BLAS
