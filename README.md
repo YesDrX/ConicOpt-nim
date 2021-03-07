@@ -46,6 +46,8 @@ when isMainModule:
 ```
 nim c --run -d:debug example.nim
 ```
+If you don't want see the details of your conic problem, remove -d:debug when compiling your code.
+
 * Output
 ```
 =======================================================================================
